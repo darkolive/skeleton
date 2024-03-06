@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from 'svelte';
+
   let fontValue = 0;
   const fonts = [
     'Lexend',
@@ -8,8 +10,18 @@
     'Courier New'
   ];
 
-  $: fontName = fonts[fontValue];
-  $: document.body.style.fontFamily = fontName;
+  // Reactive statements to handle font family changes
+  let fontName = fonts[fontValue];
+
+  onMount(() => {
+    updateFontFamily();
+  });
+
+  $: fontValue, updateFontFamily();
+
+  function updateFontFamily() {
+    document.body.style.fontFamily = fonts[fontValue];
+  }
 </script>
 
 <div class="flex my-4 overflow-x-auto w-full">

@@ -1,11 +1,11 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script lang="ts">
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import Timeline from '$lib/Timeline.svelte';
-	import TimelineItem from '$lib/TimelineItem.svelte';
 	import ThemeSetting from '$lib/theme/ThemeSetting.svelte';
 	import FontSetting from '$lib/theme/FontSetting.svelte';
 	import FontSize from '$lib/theme/FontSize.svelte';
+	import Timeline from '$lib/Timeline.svelte';
+	import TimelineItem from '$lib/TimelineItem.svelte';
 </script>
 
 
