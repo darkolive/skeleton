@@ -1,0 +1,16 @@
+/* global.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/antijingoist/open-dyslexic/fonts/OTF/OpenDyslexic-Regular.otf");
+
+/* Additional fonts can be added similarly */
+/* global.css */
+/* global.css */
+
+:root {
+  --base-font-size: 16px; /* Default base font size */
+  /* Define more variables if needed for different scales */
+}
+body {
+  font-size: var(--base-font-size);
+}
