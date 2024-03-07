@@ -3,7 +3,6 @@
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import ThemeSetting from '$lib/theme/ThemeSetting.svelte';
 	import FontSetting from '$lib/theme/FontSetting.svelte';
-	import FontSize from '$lib/theme/FontSize.svelte';
 	import Timeline from '$lib/Timeline.svelte';
 	import TimelineItem from '$lib/TimelineItem.svelte';
 </script>
@@ -21,10 +20,7 @@
 	<h3 class="flex justify-center text-2xl">Font Setting</h3>
   <FontSetting />
 </div>
-<div class="justify-center mx-64 my-16">
-	<h3 class="flex justify-center text-2xl">Font Size</h3>
-  <FontSize />
-</div>
+
 
 		<div class="p-20">
 		<Timeline>
